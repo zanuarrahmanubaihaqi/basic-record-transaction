@@ -14,6 +14,6 @@ record user transaction with laravel 7 and mysql
 - run `php artisan vendor:publish --tag=datatables`
 
 # Note
-- before login edit methode `username()` di file `AuthenticatesUsers.php` vendor/laravel/ui/auth-backend/AuthenticatesUsers.php return 'email' to return 'username'
+- before login edit methode `username()` at file `AuthenticatesUsers.php` vendor/laravel/ui/auth-backend/AuthenticatesUsers.php return 'email' to return 'username'
 - admin : username -> admin & password -> passw0rd
 
